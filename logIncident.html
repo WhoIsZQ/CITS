@@ -1,0 +1,79 @@
+<!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">    
+        <div id="main">
+        <title>Child Incident Tracking System</title>
+    </head>
+
+    <!--JUMBOTRON-->
+    <div class="jumbotron text-center">
+        <div class="container">
+            <h1>CITS Form</h1>
+            <p>Please track incidents fill in the following form.</p>
+        </div>
+    </div>
+    
+    <body>
+        <form class="form-group" id="cits-incident" method="post" action="incident_submit.php">
+            <div class="container">
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                            <h3 class="panel-title">Child Info</h3>
+                    </div>
+                        <div class="row">
+                        <div class="col-md-6">
+                                <div class="form-group">
+                                        <label>Child's First Name: </label>
+                                        <input type="text" class="form-control" name="child_firstName" id="cFirstName" placeholder="Enter child's first name" class="namebox" required/>
+                                </div>
+                        </div>
+                        <div class="col-md-6">
+                                <div class="form-group">
+                                        <label>Child's Last Name: </label>
+                                        <input type="text" class="form-control" name="child_lastName" id="cLastName" placeholder="Enter child's last name" class="namebox" required/>
+                                </div>
+                        </div>
+                                
+                        </div>
+
+                        <label>Incident description</label>
+                        <textarea class="form-control" style="min-height:125px; min-width:100px;" name="incident_desc" id="incidentDesc" placeholder="Enter description of incident"></textarea>
+                </div>
+
+                               
+                </div>
+
+                <div class="row">
+
+                        <div class="col-md-6">
+                                <div class ="containter text-center">
+                                                <a class="btn btn-primary btn-lg" href="index.html" role="button">Back</a>
+                                </div>
+                        </div>
+                        <div class="col-md-6">
+                                <div class ="containter text-center">
+                                        <input type="submit" class="btn btn-lg btn-primary"  id="submit" value="Submit">
+                                </div>
+                        </div>
+
+                </div>
+    
+        </form>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js" 
+        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+    </body>
+
+    <br>
+
+    <div class="container text-center">
+    <div class="panel-footer panel-default" text="text-center">CITS Corp &copy; 2019</div>
+    </div>  
+</html>
