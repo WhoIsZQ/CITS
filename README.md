@@ -10,7 +10,7 @@ Recap of basic things this app or website should do. - Register a child or pull 
  
 Extra Credit - Program should send parent an automated message when there is an incident. - Once a child gets to 3 incidents.  There should be templates within the program that administration can select an automated message to send to the parent. - Be able to export all incidents as a pdf or word file for administration or parent. 
 
-What I learned
-Got re-aqainted with Bootstrap (Front-end)
-Worked with an updated version of PHP(Backend Formdata to Server). Got a little taste of it's class based DB connection utility.
-Worked with prepared statements for data insertion into database
+## What I learned
+- Got re-aqainted with Bootstrap (Front-end)
+- Worked with an updated version of PHP(Backend Formdata to Server). Got a little taste of it's class based DB connection utility.
+- Worked with prepared statements for data insertion into database
