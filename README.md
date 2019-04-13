@@ -2,7 +2,7 @@
 
 ### Coding Meetup Group Challenge:
 
-Challenge Incident Tracker for Day Care 
+Incident Tracker for Day Care 
  
 We are going to build a tool where teachers can log incidents that happen to children  This tool needs to be able to flag children who have multiple offenses.  Once a child has 3 offenses, the tool should alert day care administration.  The child should be flagged in the system and be put in an inactive state.  If the parent tries to enroll their child in another facility.  It should flag the child. 
  
